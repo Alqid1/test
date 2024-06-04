@@ -16,6 +16,7 @@ const lenghtOfBuf int = 10
 
 func main() {
 	//test commit
+	//test commit 2
 	//1)Отвечает за постоянное считывание данных с консоли, ведет запись в кольцевой буффер
 	//2)Отвечает за отправку сигнала о завершении программы при введении "end"
 	wait := func(done chan bool, permission []chan bool, arr *[lenghtOfBuf]int, arrIndex *int, arrLastIndex *int) {
